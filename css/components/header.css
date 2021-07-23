@@ -1,0 +1,57 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  width: calc(100% - 2 * var(--main-margin));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px var(--main-margin);
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0) 0px 2px 8px 0px;
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.main-header.show-box-shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.main-header__title,
+.main-header__icons i {
+  font-size: var(--icon-size);
+}
+
+.main-header__title {
+  height: 32px;
+  line-height: 32px;
+}
+
+.main-header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.main-header__icons i {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.main-header__icons a {
+  background-color: var(--representative-color);
+  color: white;
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+  box-shadow: 0 1px 5px #aaa;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body {
+  margin-top: 82px;
+}

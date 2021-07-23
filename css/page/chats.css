@@ -1,0 +1,15 @@
+@import "../variable.css";
+@import "../reset.css";
+@import "../components/header.css";
+@import "../components/navbar.css";
+@import "../components/user.css";
+@import "../components/chat.css";
+
+.chats-list {
+  margin: 0 20px;
+}
+
+.user-notification {
+  margin-top: 45vh;
+  text-align: center;
+}

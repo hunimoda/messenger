@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap");
+
+:root {
+  --representative-color: #7952b3;
+  --logo-font: "Lobster", cursive;
+  --main-font: "Open Sans", sans-serif;
+  --icon-size: 24px;
+  --main-margin: 20px;
+  --user-row-margin: 15px;
+}

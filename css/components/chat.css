@@ -1,0 +1,12 @@
+.chat__message {
+  font-size: 13px;
+}
+
+.chat__last-timestamp {
+  font-size: 11px;
+  color: #888;
+}
+
+.user__column:last-child {
+  width: calc(100% - 56px - 13px);
+}

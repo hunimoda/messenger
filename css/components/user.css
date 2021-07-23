@@ -1,0 +1,50 @@
+.link-to-chatroom {
+  display: block;
+}
+
+.user__row {
+  display: flex;
+  align-items: center;
+  margin: var(--user-row-margin) 0;
+}
+
+.user__image {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+
+.user__image--large {
+  width: 64px;
+  height: 64px;
+}
+
+.user__image--medium {
+  width: 56px;
+  height: 56px;
+}
+
+.user__column:last-child {
+  margin-left: calc(var(--main-margin) * 0.65);
+}
+
+.user__message {
+  font-size: 12px;
+  color: #888;
+}
+
+.user__message--no-margin {
+  margin-top: 0;
+}
+
+.user__subrow {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user__subrow:first-child {
+  margin-top: 0;
+}
